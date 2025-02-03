@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(Images/Back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    margin-top: 220px;
+}
+form{
+    width: 500px;
+    height: 160px;
+    border: 2px solid;
+    margin-top: 10px;
+    margin-left: 520px;
+    font-weight:800;
+    font-size: 20px;
+}
+form input{
+    margin-top: 12px;
+    background-color: rgb(79, 160, 235);
+    height: 25px;
+    font-weight:400s;
+}
+.players{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+    padding-top: 20px;
+}
+form button{
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 199px;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: rgb(239, 134, 6);
+}
+form button:hover{
+    cursor: pointer;
+    background-color: rgb(249, 76, 7);
+}
